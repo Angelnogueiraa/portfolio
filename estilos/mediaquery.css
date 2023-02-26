@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (max-width:728px) {
+
+    img {
+        height: 25px;
+    }
+    #btn {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        background:none;
+        border:none;
+        gap: 1em;
+          
+    }
+
+    #hamburguer {
+        border-top: 3px solid white;
+
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content:'';
+        display: block;
+        height: 2px;
+        width: 25px;
+        background:currentColor ;
+        margin-top: 5px;
+        transition: .3s;
+
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent ;
+    }
+
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        position: relative;
+        top: -7px; /*só funciona se o position for relativo,absolute,ou fixed*/
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top:70px;
+        right: 0px;
+        background-image: linear-gradient(to top, var(--cor-1),var(--cor-2));
+        height: 0px;
+        z-index: 1000;
+        text-align: center;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        visibility: visible;
+        height: calc(100vh - 70px);
+        /*overflow-y: auto; Quando o menu estiver com muitos itens*/
+    }
+}
