@@ -60,9 +60,19 @@
         overflow-y: hidden;
     }
 
+    #menu a {
+        padding-top: 20px;
+    }
+
     #nav.active #menu {
         visibility: visible;
         height: calc(100vh - 70px);
         /*overflow-y: auto; Quando o menu estiver com muitos itens*/
+    }
+
+    section.img {
+        
+        background-size: contain;
+        
     }
 }

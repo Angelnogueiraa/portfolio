@@ -16,7 +16,7 @@ body, ul {
     padding: 0px;
 }
 
-img {
+img.angel {
     height: 30px;
     width: 150px;
 }
@@ -66,6 +66,14 @@ a:hover {
 
 #btn {
     display: none;
+}
+
+section.img {
+    width: 100vw;
+    height: 50vh;
+    background: url(../imagens/imagem1.webp) no-repeat;
+    background-size: cover;
+    
 }
 
 
