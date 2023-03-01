@@ -74,6 +74,23 @@
 
         background-repeat: repeat-x;
         background-size: cover;
+        background-position: left;
         
+    }
+
+    .line {
+        padding-top: 20px;
+    }
+
+    .button {
+        width: 200px;
+        height: 50px;
+        margin:50px 0px 0px 100px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.4em;
+        border: 2px solid cyan ;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px blue;
     }
 }
