@@ -71,8 +71,9 @@
     }
 
     section.img {
-        
-        background-size: contain;
+
+        background-repeat: repeat-x;
+        background-size: cover;
         
     }
 }

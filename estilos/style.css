@@ -69,12 +69,93 @@ a:hover {
 }
 
 section.img {
+    
+    
     width: 100vw;
     height: 50vh;
-    background: url(../imagens/imagem1.webp) no-repeat;
+    /*background: url(../imagens/imagem1.webp) no-repeat;*/
     background-size: cover;
+    background-color: var(--cor-2);
     
 }
+
+.line {
+    margin: 0px;
+    padding-left: 15px;
+    border-right: 2px solid transparent ;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+     animation: blinkCursor 500ms 4 steps(40)  normal, typing 1s steps(40) 1s normal both ;
+
+}
+
+
+.meu {
+    margin: 0px;
+    padding-left: 40px;
+    border-right: 2px solid transparent;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;    
+    font-size: 2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;    
+
+}
+.tipo-meu {
+    animation: blinkCursor 500ms steps(40) 8 normal, typinome 2s steps(40) 2s normal both ;    
+}
+
+.ang {
+    margin: 0px;
+    padding-left: 150px;
+    border-right: 2px solid transparent;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;      
+}
+.tipo-angel {
+    animation: blinkCursor 500ms steps(40) 17 normal, typiang 1s steps(40) 4s normal both ;   
+}
+
+@keyframes typiang {
+    from {width: 0px;}
+    to{width: 2.3em;}
+}
+
+@keyframes typinome {
+    from {width: 0px;}
+    to{width: 4.7em;}
+}
+
+@keyframes typing {
+    from {width: 0px;}
+    to{width: 1.6em;}
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color:var(--cor-2);
+    }
+    to {
+        border-right-color:transparent ;
+    }
+}
+
+
+
+
+
+
 
 
 
