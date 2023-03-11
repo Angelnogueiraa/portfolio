@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 @media screen and (max-width:728px) {
 
     img {
@@ -93,4 +95,47 @@
         border-radius: 5px;
         box-shadow: 2px 2px 5px blue;
     }
-}
+    .Servicos {
+        
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;;
+        
+    }
+
+    .desenvolvimento {
+        
+        width: 70vw ;
+        height: 150px;
+        background-color: darkblue;
+        color: white;
+        border-radius: 10px;
+    }
+
+    h3 {
+       
+        margin: 0px;
+        padding:0px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    p {
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 0px;
+       padding-top: 10px;
+       padding-left: 20px;
+       
+    }
+
+    .material-symbols-outlined {
+        padding: 10px 25px;
+        color: rgba(245, 245, 245, 0.485);
+        font-size: 2em;
+    }
+
+    
+    
+}   
