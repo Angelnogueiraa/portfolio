@@ -220,8 +220,7 @@ section.img {
    height: 40vh;
    margin: auto;
    border-radius: 10px;
-   background: url('/imagens/blue.jpg');
-   background-position: left bottom;
+   background-color: darkblue;
 
 }
 
@@ -242,8 +241,8 @@ section.img {
    height: 40vh;
    margin: auto;
    border-radius: 10px;
-   background: url('/imagens/blue.jpg');
-   background-position: left bottom;
+   background-color: darkblue;
+   
 
 }
 
