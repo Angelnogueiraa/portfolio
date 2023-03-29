@@ -229,7 +229,7 @@ section.img {
     align-items: flex-end;
     flex-direction: column;
     border-radius: 10px;
-    background: url('/imagens/blue.jpg');
+    background: url('/imagens/proj.jpg');
     background-position: left center;
 }
 
@@ -256,7 +256,7 @@ section.img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: url('/imagens/blue.jpg');
+    background: url('/imagens/proj.jpg');
 }
 
 .Projdois h3 {
