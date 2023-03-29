@@ -229,8 +229,7 @@ section.img {
     align-items: flex-end;
     flex-direction: column;
     border-radius: 10px;
-    background: url('/imagens/proj.jpg');
-    background-position: left center;
+    background-color: darkblue;
 }
 
 .Projum h3 {
@@ -256,7 +255,7 @@ section.img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: url('/imagens/proj.jpg');
+    background-color: darkblue;
 }
 
 .Projdois h3 {
