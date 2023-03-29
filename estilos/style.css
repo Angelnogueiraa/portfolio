@@ -229,6 +229,7 @@ section.img {
     align-items: flex-end;
     flex-direction: column;
     border-radius: 10px;
+    background: url('/imagens/proj.jpg');
     background-color: darkblue;
 }
 
@@ -255,6 +256,7 @@ section.img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    background: url('/imagens/proj.jpg');
     background-color: darkblue;
 }
 
