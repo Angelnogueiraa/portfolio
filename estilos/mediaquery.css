@@ -141,7 +141,24 @@
         font-size: 2em;
     }
 
-      
+    .Projum {
+        width:80% ; 
+    }
+
+    .Projum p {
+
+        font-size: .7em;
+    }
+    
+    .Projdois {
+        width:80% ;
+        background-position: left bottom; 
+    }
+
+    .Projdois p {
+        
+        font-size: .7em;
+    }
 
     .svg {
         
