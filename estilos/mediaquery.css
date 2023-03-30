@@ -161,9 +161,10 @@
     }
 
     .sobre img {
-        width: 250px;
+        width: 240px;
         height: 280px;
         border-radius: 5px;
+        
     }
 
     .svg {
