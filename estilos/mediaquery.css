@@ -160,6 +160,12 @@
         font-size: .7em;
     }
 
+    .sobre img {
+        width: 250px;
+        height: 280px;
+        border-radius: 5px;
+    }
+
     .svg {
         
         gap: 2em;
