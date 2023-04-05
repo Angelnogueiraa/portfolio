@@ -189,6 +189,7 @@ section.img {
     background-color: darkblue;
     color: white;
     border-radius: 10px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.651);
 }
 
 .desenvolvimento h3 {
