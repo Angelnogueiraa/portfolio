@@ -141,9 +141,17 @@
         font-size: 2em;
     }
 
+    .Proj {
+        height: 55vh;
+    }
+
     .Projum {
         width:80% ;
         height: 100%; 
+    }
+
+    .Projum h3 {
+        padding: 0px 10px;
     }
 
     .Projum p {
