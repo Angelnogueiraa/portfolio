@@ -53,7 +53,7 @@
         width: 100%;
         top:70px;
         right: 0px;
-        background-image: linear-gradient(to top, var(--cor-1),var(--cor-2));
+        background-color: black;
         height: 0px;
         z-index: 1000;
         text-align: center;
@@ -141,17 +141,13 @@
         font-size: 2em;
     }
 
-    .Proj {
-        height: 55vh;
-    }
-
     .Projum {
         width:80% ;
         height: 100%; 
     }
 
     .Projum h3 {
-        padding: 0px 10px;
+        padding: 10px;
     }
 
     .Projum p {

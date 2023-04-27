@@ -11,9 +11,14 @@
     --cor-5:#808080;
 }
 
+
 body, ul {
     margin: 0px;
     padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img.angel {
@@ -168,7 +173,7 @@ section.img {
 }
 
 .serv h1 {
-    margin: 50px 0px;
+    margin: 100px 0px;
     font-family: 'Raleway', sans-serif;;
     text-align: center;
 }
@@ -230,7 +235,8 @@ section.img {
     align-items: flex-end;
     flex-direction: column;
     border-radius: 10px;
-    background-image: url('/imagens/proj.png');
+    background-image: url("../imagens/ponte.jpg");
+    background-size: contain;
     background-color: darkblue;
 }
 
@@ -239,6 +245,7 @@ section.img {
     padding: 10px;
     width: 60%;
     height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
@@ -248,6 +255,7 @@ section.img {
     height: 100%;
     margin: 0px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     background-color: white;
 }
@@ -258,7 +266,8 @@ section.img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background-image: url('/imagens/proj.png');
+    background-image: url('../imagens/ponte.jpg');
+    background-size: cover;
     background-color: darkblue;
 }
 
@@ -277,6 +286,7 @@ section.img {
     margin: 0px;
     padding: 10px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
