@@ -68,7 +68,7 @@
 
     #nav.active #menu {
         visibility: visible;
-        height: calc(70vh - 70px);
+        height: calc(50vh - 70px);
         /*overflow-y: auto; Quando o menu estiver com muitos itens*/
     }
 
